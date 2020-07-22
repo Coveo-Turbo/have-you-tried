@@ -1,0 +1,26 @@
+{
+    "name": "@coveops/have-you-tried",
+    "version": "1.0.0",
+    "description": "When you have no results, have you tried will show machine learning query suggestions to try.",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "coveops build have-you-tried --template typescript",
+        "serve": "coveops serve",
+        "precompile": "npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache-2.0",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@coveops/turbo-core": "^1.1.1",
+        "coveo-search-ui": "^2.9373.6"
+    },
+    "devDependencies": {
+        "@coveops/cli": "^0.8.1"
+    }
+}
